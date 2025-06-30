@@ -15,6 +15,8 @@ int main (){
     printf("%s\n", movie.idol);
     printf("%d\n", movie.year);
 
+    printf("%s%s%d", movie.title, movie.idol, movie.year);
+
     return 0;
 
 }
